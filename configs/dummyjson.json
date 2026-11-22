@@ -1,0 +1,19 @@
+{
+  "spec_url": "https://dummyjson.com/openapi.json",
+  "base_url": "https://dummyjson.com",
+  "operations": ["GET-/products", "GET-/products/{id}"],
+  "parameters": {
+    "GET-/products/{id}": {
+      "id": 1
+    }
+  },
+  "query_parameters": {
+    "GET-/products": {
+      "limit": 5,
+      "skip": 0
+    }
+  },
+  "request_bodies": {},
+  "workers": 2,
+  "timeout": 15
+}

@@ -1,0 +1,14 @@
+{
+  "spec_url": "https://petstore3.swagger.io/api/v3/openapi.json",
+  "base_url": "https://petstore3.swagger.io/api/v3",
+  "operations": ["GET-/pet/findByStatus"],
+  "parameters": {},
+  "query_parameters": {
+    "GET-/pet/findByStatus": {
+      "status": "available"
+    }
+  },
+  "request_bodies": {},
+  "workers": 5,
+  "timeout": 15
+}
